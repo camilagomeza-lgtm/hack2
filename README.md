@@ -1,3 +1,27 @@
+# Log Pose Console
+
+## Integrantes
+
+| Nombre | Código |
+|:-------|:-------|
+| (completar) | (completar) |
+| (completar) | (completar) |
+| (completar) | (completar) |
+
+## Cómo ejecutar
+
+Requiere Node 24 LTS.
+
+```bash
+cp .env.example .env   # define VITE_API_BASE_URL
+npm install
+npm run dev
+```
+
+Build de producción: `npm run build`.
+
+---
+
 # Hackathon Frontend: One Piece — Rumbo al Grand Line
 
 > *"¡El One Piece existe!"* — Edward Newgate
