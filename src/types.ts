@@ -1,10 +1,11 @@
 // Tipos de la API. Revisar los nombres de campos contra Swagger:
 // https://logpose-api-jg7f.onrender.com/docs
 
+// Respuesta de GET /auth/me
 export interface Team {
-  teamName: string
-  teamCode: string
-  email: string
+  user: { id: string; name: string; email: string }
+  team: { code: string; name: string }
+  expiresAt: string
 }
 
 export interface AuthResponse {

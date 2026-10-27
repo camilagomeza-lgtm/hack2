@@ -18,7 +18,7 @@ export default function Layout() {
           Se Busca
         </NavLink>
         <span className="ml-auto text-sm">
-          {team?.teamName} ({team?.teamCode})
+          {team?.team.name} ({team?.team.code})
         </span>
         <button onClick={logout} className="rounded bg-white px-3 py-1 text-blue-900">
           Salir
